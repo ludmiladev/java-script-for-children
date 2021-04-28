@@ -35,6 +35,11 @@ a.push("qivi");
 console.log(a);
 a.shift();
 console.log(a);
+a.unshift("t");
+console.log(a);
+a.pop();
+console.log(a);
+// ==============об'єднуємо масиви ==================================
 
 
 
