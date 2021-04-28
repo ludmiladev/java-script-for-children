@@ -33,6 +33,9 @@ console.log(a[1], a[5]);
 console.log(a.length);
 a.push("qivi");
 console.log(a);
+a.shift();
+console.log(a);
+
 
 
 
