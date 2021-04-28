@@ -29,9 +29,7 @@ let a = [
     "t",
     "y"
 ];
-console.log(a[1], a[5]);
-console.log(a.length);
-
+console.log(a[1]);
 
 
 
