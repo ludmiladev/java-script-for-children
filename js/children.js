@@ -843,4 +843,5 @@
 // console.log( Array.isArray([]) ); 
 // console.log( Array.isArray({}) );
 // console.log(Array.isArray([1, 2, 3]));
-console.log( Array.isArray({a: 1, b: 2, c: 3}) );
+// console.log( Array.isArray({a: 1, b: 2, c: 3}) );
+// ========================================================================================
