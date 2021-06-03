@@ -1191,13 +1191,222 @@
 // add(10, 20, 30);
 // add(5, 10, 15);
 // =======================================================================================
-function isAdult(age) {
-const passed = 25;
-if(age>18 || age === 18 ){
-    console.log(true);
-}else{
-    console.log(false);
-}
-return passed;
-}
-isAdult();
+// function isAdult(age) {
+//   const passed = age >= 18;
+//   console.log(passed);
+//   return passed;
+// }
+// isAdult()
+
+
+// ======================================================================================
+// ======================================================================================
+// function checkAge(age) {
+//   let message;
+
+//   if (age >= 18) { // Change this line
+//     message = 'You are adult';
+//   } else {
+//     message = 'You are minor';
+//   }
+
+//   return message;
+// }
+// =========================================== 15 ============================================
+// function checkAge(age) {
+//   let message;
+
+//   if (age >= 18) { 
+//     message = 'You are adult';
+//   } else {
+//     message = 'You are minor';
+//   }
+//   // checkAge();
+//   console.log(message);
+//   return message;
+// }
+// checkAge(25);
+
+// ==============
+
+// function checkAge(age) {
+//   let message;
+
+//   if (age >= 18) { 
+//     message = 'You are adult';
+//   } else {
+//     message = 'You are minor';
+//   }
+//   console.log(message);
+//   return message;
+// }
+// checkAge()
+
+// ========================================== 16 =============================================
+// function checkStorage(available, ordered) {
+//   let message;
+  // Change code below this line
+  // if (ordered > available) { 
+  //   message = 'Not enough goods in stock!';
+  // } else {
+  //   message = 'Order is processed, our manager will contact you.';
+  // }
+  // console.log(message);
+  // Change code above this line
+//   return message;
+// }
+// ================================== 18 ====================================================
+// function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+//   let message;
+  // Change code below this line
+  // const totalPrice = pricePerDroid * orderedQuantity;
+  // if (totalPrice > customerCredits) { 
+  //   message = 'Insufficient funds!';
+  // } 
+  
+  // if (customerCredits - totalPrice) {
+      
+  // }else {
+  //   message = 'You ordered ${orderedQuantity} droids, you have {customerCredits} credits left';
+  // }
+  // console.log(message);
+  // Change code above this line
+//   return message;
+// }
+
+// ========================================================================
+// let test = 'abc';
+// if (test == 'abc') {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+// =========================================================================
+// if ('3'==3) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+// =========================================================================
+// if ('3'===3) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+// =========================================================================
+// if (3===3) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+// =========================================================================
+// if (2===3) {
+//   alert('верно');
+// }
+// alert('неверно');
+// =========================================================================
+// let test1 = '3';
+// let test2 = '3';
+		
+// if (test1 == test2) {
+// 	alert('верно');
+// } else {
+// 	alert('неверно');
+// }
+// ========================================================================
+// let test1 = '3';
+// let test2 = '3';
+		
+// if (test1 === test2) {
+// 	alert('верно');
+// } else {
+// 	alert('неверно');
+// }
+// ========================================================================
+// let test1 = 3;
+// let test2 = '3';
+		
+// if (test1 == test2) {
+// 	alert('верно');
+// } else {
+// 	alert('неверно');
+// }
+// ========================================================================
+// let test1 = 3;
+// let test2 = '3';
+		
+// if (test1 === test2) {
+// 	alert('верно');
+// } else {
+// 	alert('неверно');
+// }
+// ========================================================================
+// let test1 = 3;
+// let test2 = 3;
+		
+// if (test1 === test2) {
+// 	alert('верно');
+// } else {
+// 	alert('неверно');
+// }
+// ========================================================================
+// if ('3' != 3) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+// ========================================================================
+// if (3 !== 3) {
+// 	alert('верно');
+// } else {
+// 	alert('неверно'); // сработает этот alert, так как значения равны
+// }
+// ========================================================================
+// let test1 = '3';
+// let test2 = '3';
+		
+// if (test1 != test2) {
+// 	alert('верно');
+// } else {
+// 	alert('неверно');
+// }
+// ========================================================================
+// let test1 = '3';
+// let test2 = '3';
+		
+// if (test1 !== test2) {
+// 	alert('верно');
+// } else {
+// 	alert('неверно');
+// }
+// ========================================================================
+// let test1 = 3;
+// let test2 = '3';
+		
+// if (test1 != test2) {
+// 	alert('верно');
+// } else {
+// 	alert('неверно');
+// }
+// ========================================================================
+// let test1 = 3;
+// let test2 = '3';
+		
+// if (test1 !== test2) {
+// 	alert('верно');
+// } else {
+// 	alert('неверно');
+// }
+// ========================================================================
+// if (0 == '') {
+// 	alert('верно'); // выведет 'верно'
+// } else {
+// 	alert('неверно');
+// }
+// ========================================================================
+// if (0 == '0') {
+// 	alert('верно'); // выведет 'верно'
+// } else {
+// 	alert('неверно');
+// }
+// ========================================================================
