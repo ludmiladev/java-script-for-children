@@ -2923,8 +2923,535 @@
 // 	console.log(arr[i]);
 // }
 // ==========================================================================
-let arr = [1, 2, 3, 4, 5];
+// let arr = [1, 2, 3, 4, 5];
 
-for (let i = 0; i >= 4; i--) {
-	console.log(arr[i]);
-}
+// for (let i = 0; i >= 4; i--) {
+// 	console.log(arr[i]);
+// }
+// ===========================================================================
+// let arr = [1, 2, 3, 4, 5];
+
+// for (let elem of arr) {
+// 	console.log(elem);
+// }
+// ============================================================================
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// for (let elem of arr) {
+//   console.log(elem);
+// }
+// =========================================================================
+// alert('ghbdtn!');
+// ======================================================================
+// let name = "Джон";
+// let admin = "Джон";
+// alert('Джон');
+// ===============================================================
+// let ourPlanetName = "Земля";
+// let currentUserName = "Джон";
+// =====================================================================
+// let name = "Ilya";
+
+// alert( `hello ${1}` ); 
+
+// alert( `hello ${"name"}` ); 
+
+// alert( `hello ${name}` ); 
+// =======================================================================
+// let age = prompt('Сколько тебе лет?', 100);
+
+// alert(`Тебе ${age} лет!`);
+// =======================================================================
+// let test = prompt("Test");
+// let test = prompt("Test", '');
+// alert('test');
+
+// =====================================================================
+
+// const books = [
+//   { title: "Последнее королевство", author: "Бернард Корнуэлл", rating: 8.38 },
+//   { title: "На берегу спокойных вод", author: "Роберт Шекли", rating: 8.51 },
+//   { title: "Сон смешного человека", author: "Федор Достоевский", rating: 7.75 },
+//   { title: "Красна как кровь", author: "Ли Танит", rating: 7.94 },
+//   { title: "Враг Божий", author: "Бернард Корнуэлл", rating: 8.67 },
+// ];
+// // Пиши код ниже этой строки
+
+// const sortedByAuthorName = books.sort((a, b) =>
+//   a.author.localeCompare(b.author),
+// );
+// console.log(sortedByAuthorName);
+// const sortedByReversedAuthorName = books.sort((a, b) =>
+//   a.author.localeCompare(b.author),
+// );
+// console.log(sortedByReversedAuthorName);
+
+// const sortedByAscendingRating = books.sort((a, b) => a.rating - b.rating);
+// сonsole.log(sortedByAscendingRating);
+
+// const sortedByDescentingRating = books.sort((a, b) => b.rating - a.rating);
+// console.log(sortedByDescentingRating);
+
+// ========================================================================
+// let isBoss = confirm("Ты здесь главный?");
+
+// alert( isBoss );
+// ==============================================================
+// let out = prompt('Как Ваше имя?')
+// alert('out');
+// =======================================================================
+// let value = true;
+// alert(typeof value); 
+// =========================================================================
+// let value1 = String(value);
+// alert(typeof value1);
+// =========================================================================
+// alert( "6" / "2" );
+// =========================================================================
+// let str = "123";
+// alert(typeof str);
+// let num = Number(str);
+// alert(typeof num);
+// =========================================================================
+// let age = Number("Любая строка вместо числа");
+
+// alert(age);
+// =========================================================================
+// alert( Number("   123   ") );
+// =========================================================================
+// alert( Number("123z");
+// =========================================================================
+// alert( Number(true) ); 
+// =========================================================================
+// alert( Number(false) ); 
+// ========================================================================
+// alert( Boolean(1) );
+// alert( Boolean(0) ); 
+
+// alert( Boolean("Привет!") ); 
+// alert( Boolean("") ); 
+// ==========================================================================
+// alert( Boolean("0") );
+// alert( Boolean(" ") );
+// ========================================================================
+// let x = 1;
+
+// x = -x;
+// alert( x ); 
+// ==============================================================================
+// let x = 1, y = 3;
+// alert( y - x );
+// ==========================================================================
+// alert( 4 ** (1/2) ); 
+// alert( 8 ** (1/3) ); 
+// =============================================================================
+// let s = "моя" + "строка";
+// alert(s);
+// ==========================================================================
+// let a = 1, b = 1;
+
+// let c = ++a; 
+// let d = b++;
+// ==============================================================================
+// if ("0") {
+//   alert( 'Привет' );
+// }
+// ===========================================================
+// let hour = 12;
+// let minute = 30;
+
+// if (hour == 12 && minute == 30) {
+//   alert( 'The time is 12:30' );
+// }
+// =======================================================
+// alert( null || 2 || undefined );
+// alert( 1 && null && 2 );
+// alert( alert(1) && alert(2) );
+// =======================================================
+// let age = 1;
+
+// if (age>=14 && age<=90) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+// ========================================================
+// if (-1 || 0) alert( 'first' );
+// if (-1 && 0) alert( 'second' );
+// if (null || -1 && 1) alert( 'third' );
+// =========================================================
+// let login = prompt('Введите Ваш логин', '');
+// let password = prompt('Введите Ваш пароль');
+// if (login = "Админ") {
+//   alert('Введите Ваш пароль');
+// } 
+// if (condition) {
+  
+// }else {
+//   alert('Я вас не знаю');
+// }
+// =======================================================
+
+// let userName = prompt('Кто там?', '');
+// if (userName == 'Админ') {
+//   let pass = prompt('Пароль?', '');
+//   if (pass == 'Я главный') {
+//     alert( 'Здравствуйте!' );
+// }else if (pass == ''|| pass == null){
+//   alert( 'Отменено' );
+// }else {
+//   alert('Неверный пароль');
+// }
+// }else if (userName == '' || userName == null) {
+//   alert( 'Отменено' );
+// }else{
+//   alert('Я вас не знаю');
+// }
+// =======================================================================
+// let userName = prompt("Кто там?", '');
+
+// if (userName == 'Админ') {
+
+//   let pass = prompt('Пароль?', '');
+
+//   if (pass == 'Я главный') {
+//     alert( 'Здравствуйте!' );
+//   } else if (pass == '' || pass == null) {
+//     alert( 'Отменено' );
+//   } else {
+//     alert( 'Неверный пароль' );
+//   }
+
+// } else if (userName == '' || userName == null) {
+//   alert( 'Отменено' );
+// } else {
+//   alert( "Я вас не знаю" );
+// }
+// ========================================================================
+// let user;
+
+// alert(user ?? "Аноним");
+// ========================================================================
+// let user = "Иван";
+
+// alert(user ?? "Аноним");
+// =======================================================================
+// let i = 0;
+// while (i < 3) { 
+//   alert( i );
+//   i++;
+// }
+// ========================================================================
+// let i = 0;
+// do {
+//   alert( i );
+//   i++;
+// } while (i < 3);
+// =========================================================================
+// for (let i = 0; i < 3; i++) { 
+//   alert(i);
+// }
+// =========================================================================
+// for (let i = 0; i < 3; i++) {
+//   alert(i); 
+// }
+// alert(i); 
+// =========================================================================
+// let i = 0;
+
+// for (i = 0; i < 3; i++) { 
+//   alert(i); // 0, 1, 2
+// }
+// alert(i); 
+// =========================================================================
+// let sum = 0;
+
+// while (true) {
+
+//   let value = +prompt("Введите число", '');
+
+//   if (!value) break; // (*)
+
+//   sum += value;
+
+// }
+// alert( 'Сумма: ' + sum );
+// =============================================================================
+// outer: for (let i = 0; i < 3; i++) {
+
+//   for (let j = 0; j < 3; j++) {
+
+//     let input = prompt(`Значение на координатах (${i},${j})`, '');
+
+//     if (!input) break outer; // (*)
+//   }
+// }
+
+// alert('Готово!');
+// ===========================================================================
+// let i = 3;
+
+// while (i) {
+//   alert( i-- );
+// }
+// ==========================================================================
+// let i = 0;
+// while (i++ < 5) alert( i );
+// ==========================================================================
+// for (let i = 0; i < 11; i++) {
+//   alert( `number ${i}` );
+//   i++;
+// }
+// ===========================================================================
+// let num;
+
+// do {
+//   num = prompt("Введите число, большее 100?", 0);
+// } while (num <= 100 && num);
+// ==========================================================================
+// let num;
+
+// do {
+//   num = prompt('Введите число, большее 100?',0);
+// }while (num<=100 && num) {
+// }
+// ===========================================================================
+// let n = 10;
+
+// nextPrime:
+// for (let i = 2; i <= n; i++) { 
+
+//   for (let j = 2; j < i; j++) { 
+//     if (i % j == 0) continue nextPrime; 
+//   }
+
+//   alert( i ); 
+// }
+// ==========================================================================
+
+// let a;
+// console.log(typeof a);
+// const b = null;
+// console.log(typeof null);
+// const name = 'Mango';
+/*
+ * Можно сначала указать какую-то произвольную строку,
+ * к примеру описывающую переменную или дополняющую ее, после чего
+ * поставить запятую и указать имя переменной
+ */
+// console.log('My name is: ', name)
+// const message = 'JavaScript is awesome!';
+// alert(message);
+// =======================================================================
+// const isComing = confirm('Please confirm hotel reservation');
+// console.log(isComing);
+// const hotelName = prompt('Please enter desired hotel name:');
+// console.log(hotelName);
+// const value = prompt('Please enter a number!');
+// console.log(typeof value);
+// console.log(value);
+// ========================================================================
+// const valueA = '5';
+// console.log(Number(valueA));
+// console.log(typeof Number(valueA)); 
+// const valueB = 'random string';
+// console.log(Number(valueB)); 
+// console.log(typeof Number(valueB));
+// ========================================================================
+// console.log(Number.parseInt('5px'));
+// console.log(Number.parseInt('12qwe74'));
+// console.log(Number.parseInt('12.46qwe79')); 
+// console.log(Number.parseInt('qweqwe'));
+// ========================================================================
+// const validNumber = Number('51'); 
+// console.log(Number.isNaN(validNumber)); 
+
+// const invalidNumber = Number('qweqwe'); 
+// console.log(Number.isNaN(invalidNumber));
+// ==========================================================================
+// console.log(0.1 + 0.2 === 0.3);
+// console.log(0.1 + 0.2);
+// console.log((0.1 * 10 + 0.2 * 10) / 10);
+// =========================================================================
+// const message = 'Mango ' + 'is' + ' happy';
+// console.log(message);
+// =========================================================================
+// let result;
+
+// result = 5 + '5';
+// console.log(result);
+// console.log(typeof result); 
+
+// result = 5 + '5' + 5;
+// console.log(result); 
+// console.log(typeof result);
+// ==========================================================================
+// result = 5 + 5 + '5';
+// console.log(result); 
+// console.log(typeof result);
+// =========================================================================
+// const num = 20;
+// const result = num > 10 && num < 30;
+// console.log(result);
+// const num = 40;
+// const result = num > 10 && num < 30;
+// console.log(result); 
+// const num = 5;
+// const result = num < 10 || num > 30;
+// console.log(result);
+// const num = 40;
+// const result = num < 10 || num > 30;
+// console.log(result);
+// ===========================================================================
+// const num = 20;
+// const result = num < 10 || num > 30;
+// console.log(result);
+// =============================================================================
+// console.log(!true); 
+// console.log(!false); 
+// console.log(!1); 
+// console.log(!0);
+// =============================================================================
+// let cost = 0;
+// const subscription = 'pro';
+
+// if (subscription === 'pro') {
+//   cost = 100;
+// }
+
+// console.log(cost);
+// ==============================================================================
+// let cost = 0;
+// const subscription = 'free';
+
+// if (subscription === 'pro') {
+//   cost = 100;
+// }
+
+// console.log(cost); 
+// ===============================================================================
+// let cost;
+// const subscription = 'pro';
+
+// if (subscription === 'pro') {
+//   cost = 100;
+// } else {
+//   cost = 0;
+// }
+
+// console.log(cost);
+// =========================================================================
+// let cost;
+// const subscription = 'premium';
+
+// if (subscription === 'free') {
+//   cost = 0;
+// } else if (subscription === 'pro') {
+//   cost = 100;
+// } else if (subscription === 'premium') {
+//   cost = 500;
+// } else {
+//   console.log('Invalid subscription type');
+// }
+
+// console.log(cost);
+// =========================================================================
+// let type;
+// const age = 20;
+
+// if (age >= 18) {
+//   type = 'adult';
+// } else {
+//   type = 'child';
+// }
+// =========================================================================
+// const age = 20;
+// const type = age >= 18 ? 'adult' : 'child';
+// console.log(type);
+// ===========================================================================
+// const num1 = 5;
+// const num2 = 10;
+// let biggerNumber;
+
+// if (num1 > num2) {
+//   biggerNumber = num1;
+// } else {
+//   biggerNumber = num2;
+// }
+
+// console.log(biggerNumber);
+// ===========================================================================
+// const num1 = 5;
+// const num2 = 10;
+// const biggerNumber = num1 > num2 ? num1 : num2;
+
+// console.log(biggerNumber);
+// ===============================================================================
+// let cost;
+// const subscription = 'premium';
+
+// switch (subscription) {
+//   case 'free':
+//     cost = 0;
+//     break;
+
+//   case 'pro':
+//     cost = 100;
+//     break;
+
+//   case 'premium':
+//     cost = 500;
+//     break;
+
+//   default:
+//     console.log('Invalid subscription type');
+// }
+
+// console.log(cost);
+// =============================================================================
+// const value = 5;
+
+// if (true) {
+//   console.log('Block scope: ', value); // 5
+// }
+
+// console.log('Global scope: ', value); 
+// ===============================================================================
+// const global = 'global';
+
+// if (true) {
+//   const blockA = 'block A';
+
+//   // Видим глобальную + локальную A
+//   console.log(global); // 'global'
+//   console.log(blockA); // block A
+
+//   /*
+//    * Переменные blockB и blockC не найдены в доступных областях видимости.
+//    * Будет ошибка обращения к переменной.
+//    */
+//   console.log(blockB); // ReferenceError: blockB is not defined
+//   console.log(blockC); // ReferenceError: blockC is not defined
+
+//   if (true) {
+//     const blockB = 'block B';
+
+//     // Видим глобальную + внешнюю A + локальную B
+//     console.log(global); // global
+//     console.log(blockA); // block A
+//     console.log(blockB); // block B
+
+//     /*
+//      * Переменная blockC не найдена в доступных областях видимости.
+//      * Будет ошибка обращения к переменной.
+//      */
+//     console.log(blockC); // ReferenceError: blockC is not defined
+//   }
+// }
+// ============================================================================
+const arr = [];
+const clients = ['Mango', 'Poly', 'Ajax'];
+console.log(clients);
+// =================================================================================
+
+
+
