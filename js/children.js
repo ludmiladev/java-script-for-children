@@ -3448,10 +3448,12 @@
 //   }
 // }
 // ============================================================================
-const arr = [];
-const clients = ['Mango', 'Poly', 'Ajax'];
-console.log(clients);
+// const arr = [];
+// const clients = ['Mango', 'Poly', 'Ajax'];
+// console.log(clients);
 // =================================================================================
-
+const add = function (a, b, c) {
+  return a + b + c;
+};
 
 
