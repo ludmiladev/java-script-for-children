@@ -3452,8 +3452,22 @@
 // const clients = ['Mango', 'Poly', 'Ajax'];
 // console.log(clients);
 // =================================================================================
-const add = function (a, b, c) {
-  return a + b + c;
-};
+// const add = function (a, b, c) {
+//   return a + b + c;
 
-
+// };
+// const result = add(1, 2, 3);
+// console.log(result);
+// ========================================================================
+// const clients = ['Mango', 'Poly', 'Ajax'];
+// clients[0] = 'Kiwi';
+// console.log(clients[0]);
+// ========================================================================
+let category;
+const age = 20;
+if (age>=18) {
+  category = 'adult';
+}else{
+  category = 'child';
+}
+console.log(category);
