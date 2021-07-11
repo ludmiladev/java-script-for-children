@@ -3515,3 +3515,38 @@
 //  };
 // const add = (a,b,c) => a+b+c;
 // ===========================================================================
+// const stars = 3;
+// if (stars===1) {
+//   console.log('1');
+// } else if (stars===2) {
+//   console.log('2');
+// } else if (stars===3) {
+//   console.log('3');
+// } else if (stars===4) {
+//   console.log('4');
+// } else if (stars===5) {
+//   console.log('5');
+// } else {
+//   console.log('Неверный ввод');
+// }
+
+// switch (starts) {
+//   case 1:
+//     result = 'case 1';
+//     break;
+//   case 2:
+//     result = 'case 2';
+//     break;
+//   case 3:
+//     result = 'case 3';
+//     break;
+//   case 4:
+//     result = 'case 4';
+//     break;
+//   case 4:
+//     result = 'case 5';
+//     break;
+//   default:
+//     break;
+// }
+// console.log(result);
