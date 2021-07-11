@@ -3500,3 +3500,18 @@
 // console.log(result);
 // console.log(add(5,10,15));
 // ========================================================================
+// const count = function (countFrom=0, countTo=2, step=4){
+//   console.log(`countFrom = ${countFrom}, countTo = ${countTo}, step = ${step}`);
+
+//   for (let i = 0; i <=countTo; i+= step) {
+//     console.log(i);    
+//   }
+// };
+// count(1,5);
+// ===============================================================================
+// const add = function(a, b, c) {
+ 
+//   return a + b + c;
+//  };
+// const add = (a,b,c) => a+b+c;
+// ===========================================================================
