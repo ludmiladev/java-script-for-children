@@ -3463,11 +3463,32 @@
 // clients[0] = 'Kiwi';
 // console.log(clients[0]);
 // ========================================================================
-let category;
-const age = 20;
-if (age>=18) {
-  category = 'adult';
-}else{
-  category = 'child';
-}
-console.log(category);
+// let category;
+// const age = 20;
+// if (age>=18) {
+//   category = 'adult';
+// }else{
+//   category = 'child';
+// }
+// console.log(category);
+// ==========================================================================
+// const age = 15;
+// let n = age >= 18? 'adult': 'child';
+// console.log(n);
+
+// ============================================================================
+// const stars = 3;
+// if (stars===1) {
+//   console.log('1');
+// } else if (stars===2) {
+//   console.log('2');
+// } else if (stars===3) {
+//   console.log('3');
+// } else if (stars===4) {
+//   console.log('4');
+// } else if (stars===5) {
+//   console.log('5');
+// } else {
+//   console.log('Неверный ввод');
+// }
+// 
